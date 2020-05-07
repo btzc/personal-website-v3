@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.navbar {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+  z-index: 1;
+  line-height: 1;
+  position: fixed;
+  padding: 0 3rem;
+
+  &-items-container {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+
+    .navbar-item {
+      font-size: 1.7rem;
+      text-decoration: none;
+      display: inline-block;
+      padding: 0 2rem;
+      color: $color-white;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}

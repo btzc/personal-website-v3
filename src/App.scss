@@ -4,8 +4,12 @@
 
 .App {
   text-align: center;
-  background-color: $color-background;
   color: $color-white;
   text-align: left;
-  padding: 5rem;
+  margin: 5rem 0;
+
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }

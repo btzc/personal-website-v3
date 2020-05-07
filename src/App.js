@@ -6,13 +6,17 @@ import About from './pages/about/about.pages';
 import Work from './pages/work/work.pages';
 import Contact from './pages/contact/contact.pages';
 
+import Navbar from './components/navbar/navbar.component';
+
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Home />
-      <About />
-      <Work />
-      <Contact />
+      <div className='content'>
+        <Work />
+        <Contact />
+      </div>
     </div>
   );
 }

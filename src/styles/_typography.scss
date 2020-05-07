@@ -3,3 +3,38 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
 }
+
+.heading-primary {
+  color: $color-white;
+  line-height: 1;
+  margin-left: 10rem;
+
+  &--pre {
+    display: block;
+    font-size: 8rem;
+  }
+
+  &--main {
+    display: block;
+    font-size: 20rem;
+    margin-left: 7rem;
+    margin-bottom: 4rem;
+    max-width: 60%;
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    margin-left: 8rem;
+    width: 40%;
+  }
+}
+
+.emphasis {
+  color: $color-primary;
+}
+
+.section-heading {
+  font-weight: 600;
+  font-size: 8rem;
+}

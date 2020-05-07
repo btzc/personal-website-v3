@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+@import '../../styles/typography';
+
+.home {
+  height: 100vh;
+
+  .hero {
+    display: block;
+  }
+}
