@@ -1,0 +1,11 @@
+@import './styles/variables';
+@import './styles/base';
+@import './styles/typography';
+
+.App {
+  text-align: center;
+  background-color: $color-background;
+  color: $color-white;
+  text-align: left;
+  padding: 5rem;
+}
