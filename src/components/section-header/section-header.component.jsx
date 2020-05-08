@@ -9,9 +9,9 @@ const SectionHeader = ({longLat, title}) => (
         {longLat}
       </div>
       <div className='section-heading--foreground'>
-        <div className='title'>
+        <span className='title'>
           {title}
-        </div>
+        </span>
       </div>
     </div>
   </React.Fragment>

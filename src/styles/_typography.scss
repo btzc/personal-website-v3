@@ -39,7 +39,12 @@ body {
   color: $color-white;
   display: grid;
   line-height: 1;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
+  margin-top: 5rem;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
 
   &--background {
     grid-area: 1 / 1 / 2 / 2;

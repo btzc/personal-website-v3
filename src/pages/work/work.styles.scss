@@ -6,10 +6,9 @@
 
   &-list {
     display: grid;
-    grid-template-columns: 28% 72%;
-
-    .hidden {
-      display: none;
-    }
+    grid-template-columns: 29% 69%;
+    background-color: $color-container-background;
+    padding: 2rem;
+    box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
   }
 }

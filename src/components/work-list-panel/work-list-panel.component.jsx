@@ -2,12 +2,13 @@ import React from 'react';
 
 import './work-list-panel.styles.scss';
 
-const WorkListPanel = () => (
-  <div className='work-list-panel'>
+const WorkListPanel = ({id, hidden, company}) => (
+  <div id={id} className={`work-list-panel ${ hidden ? 'hidden' : ''}`}>
     <div className='work-list-panel__container'>
       <h3 className='title'>
         Software Engineer Co-op
-        <a href='https://www.pagerduty.com/' target='_blank' rel="noopener noreferrer" className='company'> // PagerDuty</a>
+        <span className='emphasis'> //</span>
+        <a href='https://www.pagerduty.com/' target='_blank' rel="noopener noreferrer" className='company'> {company}</a>
       </h3>
       <span className='dates'>May 2019 - August 2019</span>
       <ul className='bullets'>
