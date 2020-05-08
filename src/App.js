@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 
 import Home from './pages/home/home.pages';
-import About from './pages/about/about.pages';
+import Projects from './pages/projects/projects.pages';
 import Work from './pages/work/work.pages';
 import Contact from './pages/contact/contact.pages';
 
@@ -15,6 +15,7 @@ function App() {
       <Home />
       <div className='content'>
         <Work />
+        <Projects />
         <Contact />
       </div>
     </div>

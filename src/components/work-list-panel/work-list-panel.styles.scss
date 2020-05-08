@@ -1,0 +1,51 @@
+@import '../../styles/variables';
+
+.work-list-panel {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  padding-left: 3rem;
+
+  &__container {
+    letter-spacing: 0.05rem;
+
+    .title {
+      color: $color-white;
+      letter-spacing: 0.05rem;
+
+      .company {
+        text-decoration: none;
+        color: $color-primary;
+      }
+    }
+
+    .dates {
+      font-weight: 400;
+    }
+
+    .bullets {
+      margin-top: 1rem;
+      margin-left: 2rem;
+      list-style: none;
+      
+      .bullet {
+        padding-bottom: 1rem;
+
+        &:last-of-type {
+          padding-bottom: 0;
+        }
+      }
+
+      .bullet::before {
+        content: "\2022";  
+        color: $color-primary;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+  }
+}

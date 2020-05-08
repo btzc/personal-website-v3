@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.work {
+  color: $color-white;
+  font-size: 1.7rem;
+
+  &-list {
+    display: grid;
+    grid-template-columns: 28% 72%;
+
+    .hidden {
+      display: none;
+    }
+  }
+}

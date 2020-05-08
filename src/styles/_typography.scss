@@ -34,7 +34,40 @@ body {
   color: $color-primary;
 }
 
+
 .section-heading {
-  font-weight: 600;
-  font-size: 8rem;
+  color: $color-white;
+  display: grid;
+  line-height: 1;
+  margin-bottom: 10rem;
+
+  &--background {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 9rem;
+    color: $color-secondary;
+    font-weight: 200;
+    width: 50%;
+  }
+
+  &--foreground {
+    grid-area: 2 / 1 / 2 / 2;
+    color: $color-white;
+    margin-left: 3rem;
+
+    .title {
+      font-size: 10rem;
+      line-height: 0;
+
+      // &:after {
+      //   content: "";
+      //   display: block;
+      //   height: 2px;
+      //   width: 25rem;
+      //   background-color: $color-white;
+      //   position: relative;
+      //   top: 2rem;
+      //   margin-left: 25rem;
+      // }
+    }
+  }
 }
