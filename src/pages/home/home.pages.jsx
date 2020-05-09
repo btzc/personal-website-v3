@@ -14,6 +14,7 @@ const Home = () => (
         </div>
         <p className='heading-primary--sub'>
           I'm a software engineer who specializes in designing and developing full-stack applications.
+          When I'm not coding you can often find me cooking some food, going on a hike, or looking for my next adventure.
         </p>
       </div>
     </div>

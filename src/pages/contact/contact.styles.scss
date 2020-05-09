@@ -1,3 +1,37 @@
+@import '../../styles/variables';
+
 .contact {
-  
+  font-size: 1.8rem;
+  margin-bottom: 15rem;
+  display: block;
+
+  &--content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+    &__primary {
+      font-size: 4rem;
+      display: block;
+      font-weight: 600;
+    }
+
+    &__sub {
+      display: block;
+      font-weight: 400;
+    }
+
+    .icons--container {
+      display: flex;
+      flex: 1 1 auto;
+      justify-content: space-evenly;
+      text-align: center;
+      margin: 5rem 0;
+
+      & button {
+        height: 5rem;
+        width: 10rem;
+      }
+    }
+  }
 }

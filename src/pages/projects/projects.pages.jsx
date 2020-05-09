@@ -1,6 +1,8 @@
 import React from 'react';
 
 import CRWN from '../../assets/crwn-clothing.PNG';
+import HALP_CLI from '../../assets/javascript_example.PNG';
+import PERSONAL from '../../assets/personal-website.PNG';
 
 import SectionHeader from '../../components/section-header/section-header.component';
 
@@ -28,7 +30,7 @@ const Projects = () => (
         </div>
       </div>
       <div className='project'>
-        <img className='project--image' src={CRWN} alt='' />
+        <img className='project--image' src={HALP_CLI} alt='' />
         <div className='project--contents'>
           <div className='project--contents__title'>
             <a href='My shit website'>Personal Website</a>
@@ -45,7 +47,7 @@ const Projects = () => (
         </div>
       </div>
       <div className='project'>
-        <img className='project--image' src={CRWN} alt='' />
+        <img className='project--image' src={PERSONAL} alt='' />
         <div className='project--contents'>
           <div className='project--contents__title'>
             <a href='My shit website'>Personal Website</a>
