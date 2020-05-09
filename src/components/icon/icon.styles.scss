@@ -1,0 +1,31 @@
+@import '../../styles/variables';
+
+.icon {
+  display: inline-block;
+
+  &--container {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.1s linear 0.1s;
+    margin: 3rem;
+
+    &:hover {
+      color: $color-primary;
+      transform: translateY(-15%);
+    }
+
+    &__action {
+      display: block;
+      margin: 0.5rem auto;
+    }
+
+    &:after {
+      display: none;
+
+      &:hover {
+        visibility: hidden;
+      }
+    }
+  }
+}

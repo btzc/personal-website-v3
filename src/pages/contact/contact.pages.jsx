@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SectionHeader from '../../components/section-header/section-header.component';
+import Socials from '../../components/socials/socials.component';
 
 import './contact.styles.scss';
 
@@ -14,13 +15,8 @@ const Contact = () => (
       <span className='contact--content__sub'>
         Want to get to know me more? Feel free to reach out, even if it’s for a cup of coffee (but I’m expecting you to buy!).
       </span>
-      <div className='icons--container'>
-        <button>Linkedin</button>
-        <button>Linkedin</button>
-        <button>Linkedin</button>
-        <button>Linkedin</button>
-        <button>Linkedin</button>
-        <button>Linkedin</button>
+      <div className='socials--container'>
+        <Socials />
       </div>
       <div className='contact--content__ps'>
         P.S. If you don't like the colour <span className='emphasis'>orange</span> I'm so sorry.  
