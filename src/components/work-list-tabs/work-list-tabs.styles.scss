@@ -14,12 +14,13 @@
     &__tab {
       padding: 1rem 2rem;
       border-left: 3px solid $color-complimentary;
+      transition: all 0.2s ease-in-out;
 
       &:hover {
         background-color: $color-secondary;
         cursor: pointer;
         color: $color-primary;
-        font-weight: 600;
+        transition: all 0.2s ease-in-out;
       }
     }
   }

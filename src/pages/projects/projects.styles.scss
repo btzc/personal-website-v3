@@ -1,1 +1,92 @@
+@import '../../styles/variables';
 
+.projects {
+  color: $color-white;
+  font-size: 1.7rem;
+  line-height: 1.5;
+
+  &--list {
+    display: block;
+    width: 100%;
+
+    .project {
+      margin-bottom: 5rem;
+      display: flex;
+      flex: 1 1 auto;
+      flex-wrap: nowrap;
+      max-width: 100%;
+      position: relative;
+
+      &--image {
+        width: 65%;
+        object-fit: cover;
+        object-position: center center;
+      }
+
+      &--contents {
+        width: 40%;
+        position: absolute;
+        top: 45%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 0.03rem;
+
+        &__title {
+          padding: 2rem;
+          margin-left: 12%;
+
+          & a {
+            font-size: 2.5rem;
+            font-weight: 600;
+            background-color: $color-complimentary;
+            padding:1rem;
+
+            &:hover {
+              transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+            }
+          }
+        }
+
+        &__panel {
+          background-color: $color-container-background;
+          padding: 2rem;
+          box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
+          position: relative;
+          margin-bottom: 1rem;
+        }
+
+        &__techs {
+          padding: 2rem;
+          margin-left: 12%;
+          list-style: none; 
+          position: relative;
+
+          & li {
+            display: inline;
+            padding: 1rem;
+            background-color: $color-complimentary;
+          }
+        }
+      }
+
+      &:nth-of-type(even) {
+        flex-direction: row-reverse;
+
+        .project--contents {
+          left: 20%;
+          text-align: right;
+
+          &__title {
+            padding: 2rem;
+            margin-right: 12%;
+          }
+  
+          &__techs {
+            padding: 2rem;
+            margin-right: 12%;        
+          }
+        }
+      }
+    }
+  }
+}
