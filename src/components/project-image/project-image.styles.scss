@@ -1,0 +1,42 @@
+.project--image__container {
+  position: relative;
+  width: 65%;
+
+  .project--image__overlay {
+    position: absolute;
+    height: 98.5%;
+    width: 100%;
+    opacity: 0;
+
+    .icon--container {
+      z-index: 50;
+      opacity: inherit;
+      transition: .5s ease;
+      position: inherit;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  }
+
+  .project--image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+    transition: .5s ease;
+  }
+
+  &:hover {
+    opacity: 1;
+
+    .project--image__overlay {
+      opacity: 1;
+    }
+    .project--image {
+      opacity: 0.2;
+    }
+  }
+}
