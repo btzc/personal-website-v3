@@ -8,15 +8,19 @@ body {
   color: $color-white;
   line-height: 1;
   margin-left: 10rem;
-  margin-top: 10rem;
+  margin-top: 12rem;
   width: 100%;
 
   &--pre {
     display: block;
     font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    
   }
 
   &--main {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     display: block;
     font-size: 20rem;
     margin-left: 7rem;
@@ -67,21 +71,12 @@ body {
     grid-area: 2 / 1 / 2 / 2;
     color: $color-white;
     margin-left: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 
     .title {
       font-size: 10rem;
       line-height: 0;
-
-      // &:after {
-      //   content: "";
-      //   display: block;
-      //   height: 2px;
-      //   width: 25rem;
-      //   background-color: $color-white;
-      //   position: relative;
-      //   bottom: 2rem;
-      //   margin-left: 25rem;
-      // }
     }
   }
 }
