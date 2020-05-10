@@ -4,7 +4,8 @@ Time for some gloss and other fancy stuff.
 @import '../../styles/variables';
 
 #compass {
-	width: 300px; height: 300px;
+  width: 300px;
+  height: 300px;
 	border-radius: 50%;
 	margin: 0 auto;
 	position: relative;
@@ -43,20 +44,24 @@ Time for some gloss and other fancy stuff.
 
 /* North */
 #compass span:nth-child(1) {
-	left: 90px; top: 20px;
+  left: calc(130px - 7px);
+  top: 25px;
 }
 /* South */
 #compass span:nth-child(3) {
-	left: 100px; bottom: 20px;
+  left: calc(130px - 7px);
+  bottom: 25px;
 }
 
 /* East */
 #compass span:nth-child(2) {
-	right: 5px; top: 115px;
+  right: 25px;
+  top: calc(130px - 12px);
 }
 /* West */
 #compass span:nth-child(4) {
-	left: 5px; top: 125px;
+  left: 25px;
+  top: calc(130px - 12px);
 }
 
 

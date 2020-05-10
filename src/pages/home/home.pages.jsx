@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Socials from '../../components/socials/socials.component';
-
 import Compass from '../../components/compass/compass.component';
 
 import './home.styles.scss';
@@ -29,3 +27,6 @@ const Home = () => (
 );
 
 export default Home;
+
+// for social links in compass
+// #2a6177

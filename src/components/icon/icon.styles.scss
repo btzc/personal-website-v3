@@ -8,7 +8,6 @@
     display: inline-block;
     text-align: center;
     transition: all 0.1s linear 0.1s;
-    margin: 0 3rem;
 
     &:hover {
       color: $color-primary;
@@ -17,7 +16,7 @@
 
     &__action {
       display: block;
-      margin: 0.5rem auto;
+      margin: auto;
     }
 
     &:after {
