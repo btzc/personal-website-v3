@@ -21,3 +21,9 @@
     top: 50%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .compass--container {
+    display: none;
+  }
+}

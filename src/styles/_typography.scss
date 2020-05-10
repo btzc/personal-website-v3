@@ -44,6 +44,50 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .heading-primary {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5rem;
+
+    &--pre {
+      font-size: 4rem;
+    }
+
+    &--main {
+      font-size: 5rem;
+      max-width: 100%;
+    }
+
+    &--sub {
+      max-width: 70%;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .heading-primary {
+    width: 100%;
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+    &--pre {
+      font-size: 6rem;
+    }
+
+    &--main {
+      font-size: 10rem;
+      max-width: 100%;
+    }
+
+    &--sub {
+      max-width: 80%;
+      font-size: 2.2rem;
+    }
+  }
+}
+
 .emphasis {
   color: $color-primary;
 }
@@ -77,6 +121,34 @@ body {
     .title {
       font-size: 10rem;
       line-height: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-heading {
+    line-height: 1;
+    margin-bottom: 5rem;
+  
+    &--background {
+      grid-area: 1 / 1 / 2 / 2;
+      font-size: 6rem;
+      color: $color-secondary;
+      font-weight: 200;
+      width: 50%;
+    }
+  
+    &--foreground {
+      grid-area: 2 / 1 / 2 / 2;
+      color: $color-white;
+      margin-left: 3rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+  
+      .title {
+        font-size: 7rem;
+        line-height: 0;
+      }
     }
   }
 }

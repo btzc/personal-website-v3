@@ -50,3 +50,49 @@
     position: relative;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .project--contents {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: none;
+
+    &__title {
+      padding: 2rem;
+  
+      a {
+        font-size: 2rem;
+        font-weight: 600;
+        padding:1rem;
+      }
+    }
+  
+    &__panel {
+      background-color: $color-container-background;
+      padding: 2rem;
+      box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
+      position: relative;
+      margin-bottom: 1rem;
+    }
+  
+    &__techs {
+      padding: 2rem;
+      margin-left: 12%;
+      list-style: none; 
+      position: relative;
+  
+      & li {
+        display: inline;
+        padding: 1rem;
+        background-color: $color-complimentary;
+      }
+    }
+  
+    &__links {
+      margin-left: 12%;
+      position: relative;
+    }
+  }
+}

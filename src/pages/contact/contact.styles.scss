@@ -29,3 +29,35 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .contact {
+    font-size: 1.5rem;
+    display: block;
+  
+    &--content {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+  
+      &__primary {
+        font-size: 2.5rem;
+        display: block;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+      }
+  
+      &__sub {
+        display: block;
+        font-weight: 400;
+      }
+  
+      .socials--container {
+        margin: 4rem 0;
+        padding: 2.5rem;
+        background-color: $color-container-background;
+        box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
+      }
+    }
+  }
+}
