@@ -1,0 +1,52 @@
+@import '../../styles/variables';
+
+.project--contents {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.03rem;
+
+  &__title {
+    padding: 2rem;
+    margin-left: 12%;
+
+    a {
+      font-size: 2.5rem;
+      font-weight: 600;
+      background-color: $color-complimentary;
+      padding:1rem;
+
+      &:hover {
+        transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+      }
+    }
+  }
+
+  &__panel {
+    background-color: $color-container-background;
+    padding: 2rem;
+    box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  &__techs {
+    padding: 2rem;
+    margin-left: 12%;
+    list-style: none; 
+    position: relative;
+
+    & li {
+      display: inline;
+      padding: 1rem;
+      background-color: $color-complimentary;
+    }
+  }
+
+  &__links {
+    margin-left: 12%;
+    position: relative;
+  }
+}
