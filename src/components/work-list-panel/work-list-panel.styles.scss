@@ -64,3 +64,15 @@
     font-size: 1.5rem;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .work-list-panel {
+    display: block;
+    margin-bottom: 2rem;
+    background-color: $color-container-background;
+    padding: 2rem;
+    box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
+    font-size: 1.7rem;
+  }
+}
+

@@ -59,3 +59,33 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .project {
+    display: block;
+
+    &:nth-of-type(even) {
+      text-align: inherit;
+      display: block;
+
+      .project--contents {
+        left: 0;
+        text-align: inherit;
+  
+        &__title {
+          padding: 2rem;
+          margin-right: 0;
+        }
+  
+        &__techs {
+          padding: 2rem;
+          margin-right: 0;        
+        }
+  
+        &__links {
+          margin-right: 0;        
+        }
+      }
+    }
+  }
+}
