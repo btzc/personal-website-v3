@@ -23,7 +23,58 @@
 }
 
 @media screen and (max-width: 767px) {
+  .home {
+    .compass--container {
+      display: none;
+    } 
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .compass--container {
     display: none;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1269px) {
+  .home {
+    .compass--container {
+      flex-direction: column;
+      display: flex;
+      max-height: 60rem;
+      align-self: center;
+      position: absolute;
+      left: 70%;
+      top: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 1270px) and (max-width: 1565px) {
+  .home {
+    .compass--container {
+      flex-direction: column;
+      display: flex;
+      max-height: 60rem;
+      align-self: center;
+      position: absolute;
+      left: 65%;
+      top: 45%;
+    }
+  }
+}
+
+@media screen and (min-width: 1566px) and (max-width: 1759px) {
+  .home {
+    .compass--container {
+      flex-direction: column;
+      display: flex;
+      max-height: 60rem;
+      align-self: center;
+      position: absolute;
+      left: 50%;
+      top: 45%;
+    }
   }
 }

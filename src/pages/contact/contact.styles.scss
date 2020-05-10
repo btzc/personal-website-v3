@@ -61,3 +61,16 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1269px) {
+  .contact {
+    font-size: 1.7rem;
+    display: block;
+
+    &--content {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
