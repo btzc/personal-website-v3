@@ -14,7 +14,6 @@ const Icon = () => {
     <div className='icon'>
       <a className='icon--container' href='someurl' target='_blank' rel='noopener noreferrer'>
         <FontAwesomeIcon className='icon--container__action' icon={['fab', 'facebook']} size='2x' />
-        <span>Words</span>
       </a>
     </div>
   );

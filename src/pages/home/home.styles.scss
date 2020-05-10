@@ -5,12 +5,20 @@
   height: 100vh;
 
   .hero {
-    display: block;
+    display: flex;
     margin-bottom: 15rem;
+    position: relative;
+    height: inherit;
   }
 
-  .socials--container {
-    text-align: center;
-    background-color: $color-complimentary;
+  .compass--container {
+    flex-direction: column;
+    display: flex;
+    padding: 2rem 0;
+    max-height: 60rem;
+    align-self: center;
+    position: absolute;
+    right: 15%;
+    top: 50%;
   }
 }

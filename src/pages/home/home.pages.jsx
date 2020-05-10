@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Socials from '../../components/socials/socials.component';
+
+import Compass from '../../components/compass/compass.component';
 
 import './home.styles.scss';
 
@@ -17,6 +20,9 @@ const Home = () => (
           I'm a software engineer who specializes in designing and developing full-stack applications.
           When I'm not coding you can often find me cooking some food, going on a hike, or looking for my next adventure.
         </p>
+      </div>
+      <div className='compass--container'>
+        <Compass />
       </div>
     </div>
   </div>

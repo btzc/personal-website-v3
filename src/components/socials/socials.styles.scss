@@ -1,3 +1,7 @@
 .socials {
-  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  flex-direction: inherit;
+  align-items: inherit;
 }
