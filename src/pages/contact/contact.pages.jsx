@@ -7,7 +7,7 @@ import './contact.styles.scss';
 
 const Contact = () => (
   <div className='contact'>
-    <SectionHeader longLat={`48°30'11.7"N 123°22'33.8"W`} title='Contact' />
+    <SectionHeader longLat={`40°46'17.5"N 73°58'54.7"W`} title='Contact' />
     <div className='contact--content'>
       <span className='contact--content__primary'>
         Thanks for checking me out.

@@ -9,7 +9,7 @@ import './projects.styles.scss';
 
 const Projects = () => (
   <div className='projects'>
-    <SectionHeader longLat={`48°30'11.7"N 123°22'33.8"W`} title='Projects' />
+    <SectionHeader longLat={`43°39'22.6"N 79°22'39.1"W`} title='Projects' />
     <div className='projects--list'>
       {
         PROJECT_DATA.projects.map(({project, img, github, link, description, technologies}, i) => {
