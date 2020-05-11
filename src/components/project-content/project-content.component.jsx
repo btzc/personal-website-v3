@@ -4,23 +4,28 @@ import Icon from '../../components/icon/icon.component';
 
 import './project-content.styles.scss';
 
-const ProjectContent = () => (
+const ProjectContent = ({project, github=null, link=null, description, technologies}) => (
   <div className='project--contents'>
     <div className='project--contents__title'>
-      <a href='My shit website'>Personal Website</a>
+      {
+        link ? <a href={link}>{project}</a> : <a href={github}>{project}</a>
+      }
     </div>
     <div className='project--contents__panel'>
-      <p>A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.</p>
+      <p>{description}</p>
     </div>
     <ul className='project--contents__techs'>
-      <li>Node.js</li>
-      <li>Node.js</li>
-      <li>Node.js</li>
-      <li>Node.js</li>
+      {
+        technologies.map((technology, i) => <li key={i}>{technology}</li>)
+      }
     </ul>
     <div className='project--contents__links'>
-      <Icon />
-      <Icon />
+      {
+        github ? <Icon url={github} icon={['fab', 'github']} /> : ''
+      }
+      {
+        link ? <Icon url={link} icon={['fas', 'external-link-alt']} /> : ''
+      }
     </div>
   </div>
 );

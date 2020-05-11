@@ -7,13 +7,13 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 
 import './icon.styles.scss';
 
-const Icon = () => {
+const Icon = ({icon, url}) => {
   library.add( fab, fas );
 
   return (
     <div className='icon'>
-      <a className='icon--container' href='someurl' target='_blank' rel='noopener noreferrer'>
-        <FontAwesomeIcon className='icon--container__action' icon={['fab', 'facebook']} size='2x' />
+      <a className='icon--container' href={url} target='_blank' rel='noopener noreferrer'>
+        <FontAwesomeIcon className='icon--container__action' icon={icon} size='2x' />
       </a>
     </div>
   );

@@ -20,7 +20,7 @@ Time for some gloss and other fancy stuff.
 		0 0 1px 8px #ccc,
 		5px 10px 15px #48436f;
 	
-	transition: transform 0.5s ease, box-shadow 0.5s ease;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 #compass:before {
@@ -39,17 +39,17 @@ Time for some gloss and other fancy stuff.
 
 #compass span {
 	position: absolute;
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /* North */
 #compass span:nth-child(1) {
-  left: calc(130px - 7px);
+  left: calc(130px - 8px);
   top: 25px;
 }
 /* South */
 #compass span:nth-child(3) {
-  left: calc(130px - 7px);
+  left: calc(130px - 6px);
   bottom: 25px;
 }
 
