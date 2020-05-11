@@ -44,6 +44,18 @@
   }
 }
 
+@keyframes moveInBottom {
+  0% {
+      opacity: 0; /* hide element */
+      transform: translateY(3rem); 
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
 @keyframes easeIn {
   0% {
       opacity: 0; /* hide element */
