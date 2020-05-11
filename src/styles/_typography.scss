@@ -16,6 +16,9 @@ body {
     font-size: 8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+    animation-name: moveInTop;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
   }
 
   &--main {
@@ -29,6 +32,9 @@ body {
     background-color: $color-complimentary;
     padding: 5rem 5rem 10rem 5rem;
     box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
   }
 
   &--sub {
@@ -41,6 +47,9 @@ body {
     background-color: $color-container-background;
     margin-top: -8rem;
     box-shadow: 0 0.6rem 2rem darken($color: $color-container-background, $amount: 15%);
+    animation-name: moveInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
   }
 }
 

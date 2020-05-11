@@ -9,7 +9,7 @@ import WORK_DATA from './work.data';
 import './work.styles.scss';
 
 const Work = () => (
-  <div className='work'>
+  <div id='work' className='work'>
     <SectionHeader longLat={`48°30'11.7"N 123°22'33.8"W`} title='Work' />
     <div className='work-list'>
       <WorkListTabs />

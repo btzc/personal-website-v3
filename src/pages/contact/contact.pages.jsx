@@ -6,11 +6,11 @@ import Socials from '../../components/socials/socials.component';
 import './contact.styles.scss';
 
 const Contact = () => (
-  <div className='contact'>
+  <div id='contact' className='contact'>
     <SectionHeader longLat={`40°46'17.5"N 73°58'54.7"W`} title='Contact' />
     <div className='contact--content'>
       <span className='contact--content__primary'>
-        Thanks for checking me out.
+        Thanks for making it this far.
       </span>
       <span className='contact--content__sub'>
         Want to get to know me more? Feel free to reach out, even if it’s for a cup of coffee (but I’m expecting you to buy!).

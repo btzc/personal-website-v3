@@ -10,11 +10,15 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
+    align-items: center;
 
     &__tab {
+      display: inherit;
       padding: 1rem 2rem;
       border-left: 3px solid $color-complimentary;
       transition: all 0.2s ease-in-out;
+      height: 100%;
+      align-content: center;
 
       &:hover {
         background-color: $color-secondary;
@@ -29,6 +33,10 @@
     border-left: 3px solid $color-primary;
     color: $color-primary;
     font-weight: 600;
+
+    span {
+      border-left: none;
+    }
   }
 }
 

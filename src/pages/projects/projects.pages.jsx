@@ -8,7 +8,7 @@ import PROJECT_DATA from './projects.data';
 import './projects.styles.scss';
 
 const Projects = () => (
-  <div className='projects'>
+  <div id='projects' className='projects'>
     <SectionHeader longLat={`43°39'22.6"N 79°22'39.1"W`} title='Projects' />
     <div className='projects--list'>
       {
