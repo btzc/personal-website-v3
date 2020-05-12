@@ -17,7 +17,7 @@
     max-height: 60rem;
     align-self: center;
     position: absolute;
-    right: 15%;
+    right: 30%;
     top: 50%;
     animation-name: easeIn;
     animation-duration: 2s;
@@ -78,6 +78,48 @@
       position: absolute;
       left: 50%;
       top: 45%;
+    }
+  }
+}
+
+@media screen and (min-width: 1760px) and (max-width: 1919px) {
+  .home {
+    .compass--container {
+      flex-direction: column;
+      display: flex;
+      max-height: 60rem;
+      align-self: center;
+      position: absolute;
+      right: 25%;
+      top: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 1760px) and (max-width: 1919px) {
+  .home {
+    .compass--container {
+      flex-direction: column;
+      display: flex;
+      max-height: 60rem;
+      align-self: center;
+      position: absolute;
+      right: 25%;
+      top: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2350px) {
+  .home {
+    .compass--container {
+      flex-direction: column;
+      display: flex;
+      max-height: 60rem;
+      align-self: center;
+      position: absolute;
+      right: 25%;
+      top: 50%;
     }
   }
 }

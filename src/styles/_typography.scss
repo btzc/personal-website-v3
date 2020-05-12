@@ -13,7 +13,7 @@ body {
 
   &--pre {
     display: block;
-    font-size: 8rem;
+    font-size: 11rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     animation-name: moveInTop;
@@ -25,7 +25,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     display: block;
-    font-size: 20rem;
+    font-size: 18rem;
     margin-left: 7rem;
     margin: 4rem 0;
     max-width: 75%;
@@ -39,7 +39,7 @@ body {
 
   &--sub {
     display: block;
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin-left: 8rem;
     line-height: 1.3;
     max-width: 40%;
@@ -150,12 +150,50 @@ body {
     }
 
     &--main {
-      font-size: 15rem;
+      font-size: 13rem;
     }
 
     &--sub {
       font-size: 1.7rem;
       margin-left: 4rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1760px) and (max-width: 1919px) {
+  .heading-primary {
+    width: 100%;
+
+    &--pre {
+      font-size: 8rem;
+    }
+
+    &--main {
+      font-size: 15rem;
+    }
+
+    &--sub {
+      font-size: 2rem;
+      margin-left: 8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2350px) {
+  .heading-primary {
+    width: 100%;
+
+    &--pre {
+      font-size: 10rem;
+    }
+
+    &--main {
+      font-size: 17rem;
+    }
+
+    &--sub {
+      font-size: 2rem;
+      margin-left: 8rem;
     }
   }
 }
