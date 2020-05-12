@@ -19,7 +19,7 @@ const Contact = () => (
         <Socials />
       </div>
       <div className='contact--content__ps'>
-        P.S. If you don't like the colour <span className='emphasis'>orange</span> I'm so sorry.  
+        <span className='emphasis'>P.S.</span> Looking for the code to this site? Look no further! You can find it <a className='emphasis' href='https://github.com/btzc/personal-website-three'>here</a>.  
       </div>
     </div>
   </div>

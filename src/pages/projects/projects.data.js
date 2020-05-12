@@ -1,22 +1,8 @@
 import CRWN from '../../assets/crwn-clothing.PNG';
 import HALP_CLI from '../../assets/javascript_example.PNG';
-import PERSONAL from '../../assets/personal-website.PNG'
 
 const PROJECTS_DATA = {
   projects: [
-    {
-      "project": "Personal Website",
-      "img": PERSONAL,
-      "github": "https://github.com/btzc/personal-website-v3",
-      "link": "https://brandonzhoucharles.com",
-      "description": "A revamped version of my old website. Features an accessible friendly colour scheme, more animations, some personal flair, and just an overall cooler look",
-      "technologies": [
-        'React',
-        'SCSS',
-        'JavaScript',
-        'Git'
-      ]
-    },
     {
       "project": "CRWN Clothing",
       "img": CRWN,
