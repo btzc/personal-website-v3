@@ -13,7 +13,7 @@ const Contact = () => (
         Thanks for making it this far.
       </span>
       <span className='contact--content__sub'>
-        Want to get to know me more? Feel free to reach out, even if it’s for a cup of coffee (but I’m expecting you to buy!).
+        Want to get to know me more? Feel free to reach out, even if it’s for a cup of coffee (My daddy Nate will pay for both!).
       </span>
       <div className='socials--container'>
         <Socials />
