@@ -1,6 +1,22 @@
 const WORK_DATA = {
   jobs: [
     {
+      "id": "rewind",
+      "company": "Rewind",
+      "url": "https://www.rewind.com",
+      "title": "Full-Stack Engineer",
+      "dates": "July 2020 - Present",
+      "bullets": [
+        'Refactored legacy Stripe and Shopify billing code into Service Objects to remove code duplication and improve unit test coverage using Ruby and RSpec.',
+        'Created a global navigation drawer using React and Rails to help cross-sell different products for various platforms the company supports.',
+        'Implemented the storing of request and response data from API calls to 3rd parties using AWS Lambda to parse data and S3 to store the data.',
+        'Automated restoring of backed-up Intuit data using Sidekiq and Ruby to remove the need for manual effort.',
+        'Created a Trello power-up to allow users to use our application within an iframe by exposing and securing various API endpoints required for authorization.',
+        'Updated the Shopify API gem and resolved all breaking changes within our application with zero downtime.',
+        'Standardized logging and error across our application by creating a Ruby gem to house logging levels and logic, and defining actions to occur at various logging levels.'
+      ]
+    },
+    {
       "id": "pagerduty",
       "company": "PagerDuty",
       "url": "https://www.pagerduty.com/",

@@ -5,6 +5,7 @@ import './work-list-tabs.styles.scss';
 const WorkListTabs = () => {
   const handleClick = (e) => {
     const id_map = {
+      'Rewind': 'rewind',
       'PagerDuty': 'pagerduty',
       'Royal Bank of Canada': 'rbc',
       'BC Environmental Assessment Office': 'eao',
@@ -25,7 +26,8 @@ const WorkListTabs = () => {
   return (
     <div className='work-list-tabs'>
       <ul className='work-list-tabs--selection'>
-        <li className='work-list-tabs--selection__tab active' onClick={handleClick}>PagerDuty</li>
+        <li className='work-list-tabs--selection__tab active' onClick={handleClick}>Rewind</li>
+        <li className='work-list-tabs--selection__tab' onClick={handleClick}>PagerDuty</li>
         <li className='work-list-tabs--selection__tab' onClick={handleClick}>Royal Bank of Canada</li>
         <li className='work-list-tabs--selection__tab' onClick={handleClick}>BC Environmental Assessment Office</li>
         <li className='work-list-tabs--selection__tab' onClick={handleClick}>BC Pension Corporation</li>
